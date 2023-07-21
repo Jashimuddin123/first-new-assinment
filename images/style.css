@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 /* banner styles */
 .banner-section{
@@ -42,7 +43,7 @@
    
 }
 .btn-primary{
-    background-color: white;
+    background-color: red;
     color: #005FAC;
    margin-right: 190px;
     text-align: right;
@@ -63,6 +64,8 @@ justify-content: space-around;
 align-items: center;
 gap: 200px;
 margin: auto;
+margin-bottom: 250px;
+padding-bottom: 50px;
 
 }
 .section-title{
@@ -83,8 +86,96 @@ margin: auto;
 }
 .section-description{
     width: 500px;
-    color: brown;
+   font-size: 20px;
 }
 .sub-title{
     color: brown;
+    width: 700px;
+   font-size: 35px;
+}
+.section-details li{
+    font-size: 18px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: darkgrey;
+   
+}
+/* my hobby stylesx */
+.hobby-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 30px;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.logo{
+    text-align: end;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.hobby-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-right: 40px;
+    margin: auto;
+}
+.hobby-description{
+font-size: 20px;
+}
+
+/* linear gradiant styles */
+.gradiant{
+    margin: auto;
+    margin-left: 250px;
+    margin-bottom: 50px;
+   
+background-image: linear-gradient(to bottom right red,blue, green);
+opacity: 0.50;
+}
+
+/* footer section styles */
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.details-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.details-description{
+    width: 400px;
+    font-size: 18px;
+    padding: 5px;
+}
+.form-title{
+    font-size: 25px;
+    color: white;
+    
+}
+.input{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.form-btn{
+   width: 130px; 
+   font-size: 20px;
+   border-radius: 8px;
+    background: #005FAC;
+    color: white;
+    padding: 10px;
 }
